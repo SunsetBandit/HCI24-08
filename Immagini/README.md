@@ -4,5 +4,6 @@
 > di materiale grafico e fotografico, usato
 > nelle diverse consegne.
 <h3> Contenuto </h3>
-- Grafici riguardanti l'analisi del form
-- ...
+
+* Grafici riguardanti l'analisi del form
+* ...
