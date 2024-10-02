@@ -6,3 +6,6 @@ https://docs.google.com/spreadsheets/d/130QcHR4Oc3DtEAcvxQkfM98sfTjPhIKeRjfk3MHM
 
 Link form google:
 https://forms.gle/WVAMH16uJGw6F2Jj7
+
+Link people to contact for interviews:
+https://docs.google.com/spreadsheets/d/1uRdan2ZB-wEE2JUlIbiXemXsnmw2iOsiYlFtNuVcxWU/edit?gid=0#gid=0
