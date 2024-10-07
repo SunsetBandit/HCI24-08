@@ -14,3 +14,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 [Dataset esercizio](https://docs.google.com/document/d/1jVIqQmBYIufGpliFe61FsjmdcHN5wi-p/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true)
 
 [Interview questions](https://docs.google.com/document/d/1EGdVpHBL9-leMw78sWCqmyDzhsqaRYL1d93MWT_XPsI/edit?usp=sharing)
+
+[Interviews document](https://docs.google.com/document/d/14xaC1ZSRl0_zvAmj2-6FrEs9C-cDkynfBbA3XHe0Gvg/edit?usp=sharing)
