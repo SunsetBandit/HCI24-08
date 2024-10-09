@@ -17,6 +17,8 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 <h3>Interviews</h3>
 
+[Homework 1: Needfinding](https://docs.google.com/document/d/1L-OfIaDl7AQUmAnwSZj2Lh3Zmyfaduoh/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
+
 [Interviews calendar](https://docs.google.com/spreadsheets/d/1uRdan2ZB-wEE2JUlIbiXemXsnmw2iOsiYlFtNuVcxWU/edit?gid=0#gid=0)
 
 [Interview questions](https://docs.google.com/document/d/1EGdVpHBL9-leMw78sWCqmyDzhsqaRYL1d93MWT_XPsI/edit?usp=sharing)
