@@ -7,7 +7,7 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 [Course calendar](https://docs.google.com/spreadsheets/d/1M_SUrRKm9PU0jqc5yymdn7SbBcqqhFENlhLJNk0iOeU/edit?usp=sharing)
 
-<h3>Form</h3>
+<h3>01.a - Form</h3>
 
 [Google Form](https://forms.gle/WVAMH16uJGw6F2Jj7)
 
@@ -15,7 +15,7 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 [Dataset esercizio](https://docs.google.com/document/d/1jVIqQmBYIufGpliFe61FsjmdcHN5wi-p/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true)
 
-<h3>Interviews</h3>
+<h3>01.b - Interviews</h3>
 
 [Homework 1: Needfinding](https://docs.google.com/document/d/1L-OfIaDl7AQUmAnwSZj2Lh3Zmyfaduoh/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 
@@ -27,6 +27,6 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 [Interviews answers table](https://docs.google.com/spreadsheets/d/1Ue5aNF-DA4_kQ2AHTtH5NNPFstoeDtyOOgbJyq0GAXM/edit?usp=sharing)
 
-<h3>Analisi e sintesi</h3>
+<h3>02 - Analisi e sintesi</h3>
 
 [Xtensio Templates](https://xtensio.com/templates/)
