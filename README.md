@@ -26,3 +26,7 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 [Interviews answers document](https://docs.google.com/document/d/14xaC1ZSRl0_zvAmj2-6FrEs9C-cDkynfBbA3XHe0Gvg/edit?usp=sharing)
 
 [Interviews answers table](https://docs.google.com/spreadsheets/d/1Ue5aNF-DA4_kQ2AHTtH5NNPFstoeDtyOOgbJyq0GAXM/edit?usp=sharing)
+
+<h3>Analisi e sintesi</h3>
+
+[Xtensio Templates](https://xtensio.com/templates/)
