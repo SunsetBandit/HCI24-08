@@ -5,7 +5,8 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 <h3>General</h3>
 
-[Course calendar](https://docs.google.com/spreadsheets/d/1M_SUrRKm9PU0jqc5yymdn7SbBcqqhFENlhLJNk0iOeU/edit?usp=sharing)
+* [Course calendar](https://docs.google.com/spreadsheets/d/1M_SUrRKm9PU0jqc5yymdn7SbBcqqhFENlhLJNk0iOeU/edit?usp=sharing)
+* [OneDrive Folder](https://polimi365-my.sharepoint.com/shared?id=%2Fpersonal%2F10771954%5Fpolimi%5Fit%2FDocuments%2FHuman%2DComputer%20Interaction&listurl=%2Fpersonal%2F10771954%5Fpolimi%5Fit%2FDocuments)
 
 <h3>01.a - Form</h3>
 
