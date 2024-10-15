@@ -23,7 +23,7 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [Interviews answers table](https://docs.google.com/spreadsheets/d/1Ue5aNF-DA4_kQ2AHTtH5NNPFstoeDtyOOgbJyq0GAXM/edit?usp=sharing)
 * [User Mapping Jam](https://www.figma.com/board/4u6Fge1BaQCsR3qxkpB2ME/Untitled?node-id=0-1&t=pUE8hrMNSDidOxyR-1)
 * [Users groups for needfinding](https://docs.google.com/document/d/1Uf3O8jUfAHhm_t7L0dthuxd_JUW5lDpoPZfVXP74L3g/edit?usp=sharing)
-* [Users groups analysis with template](https://docs.google.com/spreadsheets/d/1eWkC7ybfG9k-qC0n_p61JBYKLa3ZsWYU/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true)
+* [Users groups analysis from template](https://docs.google.com/spreadsheets/d/1eWkC7ybfG9k-qC0n_p61JBYKLa3ZsWYU/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true)
 
 <h3>02 - Refinement and Focus</h3>
 
