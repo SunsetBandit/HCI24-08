@@ -30,4 +30,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 * [Homework 2: Refinement and Focus](https://docs.google.com/document/d/1yfjb8aiYY0oBR9UuriafQSIdraElrhlT/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 * [Xtensio Templates](https://xtensio.com/templates/)
-* [Intervista al Comune](https://drive.google.com/file/d/1ZvwckrhoEQwdwPSkBj1avbF7inmmBXmm/view?usp=sharing)
+* [Organizzazione consegna 2](https://docs.google.com/document/d/15lyGKtNk7S3L6MDMJwC6XR_9sYVoIBP5g4uGdnUp9Q4/edit?usp=sharing)
+* [Intervista al Comune (video)](https://drive.google.com/file/d/1ZvwckrhoEQwdwPSkBj1avbF7inmmBXmm/view?usp=sharing)
