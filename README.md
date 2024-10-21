@@ -27,6 +27,7 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [Users groups analysis from template](https://docs.google.com/spreadsheets/d/1eWkC7ybfG9k-qC0n_p61JBYKLa3ZsWYU/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true)
 
 <h3>02 - Refinement and Focus</h3>
+* [Trascrizione intervista all'assessorato]([https://docs.google.com/spreadsheets/d/1eWkC7ybfG9k-qC0n_p61JBYKLa3ZsWYU/edit?usp=sharing&ouid=109686903977756059308&rtpof=true&sd=true](https://docs.google.com/document/d/1_b15x0SDMrwC3VGBVp8_2rWWFXcW0KhWew6Zq-JcRA4/edit?usp=sharing))
 
 * [Homework 2: Refinement and Focus](https://docs.google.com/document/d/1yfjb8aiYY0oBR9UuriafQSIdraElrhlT/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 * [Xtensio Templates](https://xtensio.com/templates/)
