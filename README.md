@@ -34,4 +34,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [Organizzazione consegna 2](https://docs.google.com/document/d/15lyGKtNk7S3L6MDMJwC6XR_9sYVoIBP5g4uGdnUp9Q4/edit?usp=sharing)
 * [Intervista al Comune (video)](https://drive.google.com/file/d/1ZvwckrhoEQwdwPSkBj1avbF7inmmBXmm/view?usp=sharing)
 * [Focus Group](https://docs.google.com/document/d/1a_HD3ll-RnF0B8_6xBZ6EDT7N7jplCvrcHBb2r-xyCU/edit?tab=t.0#heading=h.mpppt3kfnvx)
-* [Figma board con personas e scenari](https://www.figma.com/design/qKmcI3s3g8ke1sle3tozmU/Personas-e-scenari?node-id=0-1&t=DM8kZ3xflFBsn11R-1)
+* [Figma con personas e scenari](https://www.figma.com/design/qKmcI3s3g8ke1sle3tozmU/Personas-e-scenari?node-id=0-1&t=DM8kZ3xflFBsn11R-1)
+* [Figma con brainstorming](https://www.figma.com/board/fdDNjSkG5vJwfZuHgdZE3B/Brainstorming-Bisogni-Soluzioni-e-Nome?node-id=0-1&t=aDMFWfRXnQYS14IT-1)
