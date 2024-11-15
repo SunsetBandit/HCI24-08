@@ -41,3 +41,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 * [Homework 3: Storyboard & LFPrototypes](https://docs.google.com/document/d/1Ti7Me344w-s-syKwv9NNagVoDLAa9HpS/edit)
 * [Figma con personas, scenari e task analysis](https://www.figma.com/design/qKmcI3s3g8ke1sle3tozmU/Personas-e-scenari?node-id=0-1&t=DM8kZ3xflFBsn11R-1)
+* [Web Prototype](https://www.figma.com/design/OghGLXV4DjVX6F6Sr3nEMR/Prototipi-MF?node-id=0-1&node-type=canvas&t=3j31SPdpkzeqi6Ix-0)
+* [App Prototype](https://www.figma.com/proto/OghGLXV4DjVX6F6Sr3nEMR?node-id=2-2&t=3zS1HiLcoD7Z6jDK-6)
