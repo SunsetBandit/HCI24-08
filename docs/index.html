@@ -13,8 +13,17 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<div class="switch-container" id="switch">
+			<div class="switch-slider"></div>
+			<div class="switch-options">
+				<div class="switch-option active" data-option="work">Home</div>
+				<div class="switch-option" data-option="info">Team</div>
+				<div class="switch-option" data-option="contact">Consegne</div>
+			</div>
+		</div>
 		<div id="wrapper">
 			<div id="bg"></div>
+			
 			<div id="overlay"></div>
 			<div id="main">
 
@@ -41,11 +50,36 @@
 			</div>
 
 		</div>
-		<div id="resto" style="height: 300px;"></div>
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			const switchEl = document.getElementById('switch');
+			const sliderEl = switchEl.querySelector('.switch-slider');
+			const optionsEl = switchEl.querySelectorAll('.switch-option');
+			let currentPosition = 0;
+
+			switchEl.addEventListener('click', (e) => {
+				const clickedOption = e.target.closest('.switch-option');
+				if (!clickedOption) return;
+
+				const newPosition = Array.from(optionsEl).indexOf(clickedOption);
+				if (newPosition === currentPosition) return;
+
+				currentPosition = newPosition;
+				updateSliderPosition();
+				updateActiveOption();
+			});
+
+			function updateSliderPosition() {
+				sliderEl.classList.remove('center', 'right');
+				if (currentPosition === 1) sliderEl.classList.add('center');
+				if (currentPosition === 2) sliderEl.classList.add('right');
+			}
+
+			function updateActiveOption() {
+				optionsEl.forEach((option, index) => {
+					option.classList.toggle('active', index === currentPosition);
+				});
+			}
 		</script>
 	</body>
 </html>
