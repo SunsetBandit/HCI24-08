@@ -1091,7 +1091,7 @@ input, select, textarea {
             width: 300px;
             height: 45px;
 			margin-left: calc(50% - 150px);
-			margin-top: 160px;
+			margin-top: 80px;
 			z-index: 10000;
             cursor: pointer;
         }
