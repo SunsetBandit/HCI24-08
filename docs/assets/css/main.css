@@ -226,6 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
+		background: #2eb82e ;
 		height: 100%;
 		left: 0;
 		opacity: 1;
