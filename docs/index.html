@@ -13,8 +13,9 @@
 		<link rel="icon" type="image/x-icon" href="assets/css/images/favicon.ico">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-		<div class="switch-container" id="switch">
+	<body class="is-preload" style="overflow: visible;">
+		
+		<div class="switch-container" id="switch" style="position: fixed;">
 			<div class="switch-slider"></div>
 			<div class="switch-options">
 				<div class="switch-option active" data-option="work">Home</div>
@@ -22,7 +23,9 @@
 				<div class="switch-option" data-option="contact">Consegne</div>
 			</div>
 		</div>
-		<div id="wrapper">
+		
+
+		<div class="content active" id="wrapper">
 			<div id="bg"></div>
 
 			<div id="overlay"></div>
@@ -56,34 +59,42 @@
 			</div>
 
 		</div>
+		<div id="team-content" class="content">
+			<h2 style="color: black !important;">team Content</h2>
+			<p style="color: black !important;">Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.Questo è il contenuto della sezione Info. Qui puoi trovare informazioni generali sulla nostra azienda.</p>
+		</div>
+	
+		<div id="consegne-content" class="content">
+			<h2 style="color: black !important;">consegne Content</h2>
+			<p style="color: black !important;">Questo è il contenuto della sezione Contact. Qui puoi trovare i nostri contatti e un modulo per raggiungerci.</p>
+		</div>
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			const switchEl = document.getElementById('switch');
 			const sliderEl = switchEl.querySelector('.switch-slider');
 			const optionsEl = switchEl.querySelectorAll('.switch-option');
-			let currentPosition = 0;
+			const contentEls = document.querySelectorAll('.content');
 
 			switchEl.addEventListener('click', (e) => {
 				const clickedOption = e.target.closest('.switch-option');
 				if (!clickedOption) return;
 
 				const newPosition = Array.from(optionsEl).indexOf(clickedOption);
-				if (newPosition === currentPosition) return;
-
-				currentPosition = newPosition;
-				updateSliderPosition();
-				updateActiveOption();
+				updateSwitch(newPosition);
+				contentEls.forEach((content, index) => {
+					content.classList.toggle('active', index === newPosition);
+				});
 			});
 
-			function updateSliderPosition() {
-				sliderEl.classList.remove('center', 'right');
-				if (currentPosition === 1) sliderEl.classList.add('center');
-				if (currentPosition === 2) sliderEl.classList.add('right');
-			}
+			function updateSwitch(position) {
+				sliderEl.style.transform = `translateX(${position * 100}%)`;
 
-			function updateActiveOption() {
 				optionsEl.forEach((option, index) => {
-					option.classList.toggle('active', index === currentPosition);
+					option.classList.toggle('active', index === position);
+				});
+
+				contentEls.forEach((content, index) => {
+					content.classList.toggle('active', index === position);
 				});
 			}
 		</script>

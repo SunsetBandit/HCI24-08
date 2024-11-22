@@ -467,7 +467,7 @@ input, select, textarea {
 		display: inline-block;
 		opacity: 0;
 		position: relative;
-		top: -1em;
+		top: 2em;
 		vertical-align: middle;
 		width: 90%;
 	}
@@ -644,7 +644,7 @@ input, select, textarea {
 
 /* Wide */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 625px) {
 
 		/* Basic */
 
@@ -726,7 +726,7 @@ input, select, textarea {
 
 /* Normal */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 625px) {
 
 		/* Basic */
 
@@ -808,7 +808,7 @@ input, select, textarea {
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 625px) {
 
 		/* Basic */
 
@@ -916,7 +916,7 @@ input, select, textarea {
 
 /* Mobile (Portrait) */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 625px) {
 
 		/* BG */
 
@@ -995,7 +995,7 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
-		@media (max-width: 1200px) {
+		@media (max-width: 625px) {
 			#header nav {
 				padding: 0 0em;
 			} 
@@ -1005,7 +1005,7 @@ input, select, textarea {
 
 
         .switch-container {
-            background: rgba(255	, 255, 255, 0.1);
+            background: rgb(58 58 58);
             border-radius: 100px;
             padding: 4px;
             position: relative;
@@ -1062,7 +1062,7 @@ input, select, textarea {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 10px;
 		}
-		@media (max-width: 1200px) {
+		@media (max-width: 625px) {
 			.grid-container-home {
 				display: grid;
 				grid-template-columns: 1fr;
@@ -1080,9 +1080,9 @@ input, select, textarea {
 		}
 		
 		
-		@media (min-width: 1200px) {
+		@media (min-width: 625px) {
 			.container-img{
-				padding: 0px 20px 40px 0px;
+				padding: 0px 80px 150px 20px;
 			}
 		}
 
@@ -1090,9 +1090,22 @@ input, select, textarea {
 			text-align: left;
 		}
 
-		@media (max-width: 1200px) {
+		@media (max-width: 625px) {
 			.header-block{
 				text-align: center;
 				align-items: center;
 			}
 		}
+
+		.content {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            display: none;
+        }
+
+        .content.active {
+            display: contents;
+        }
