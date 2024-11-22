@@ -467,11 +467,11 @@ input, select, textarea {
 		display: inline-block;
 		opacity: 0;
 		position: relative;
-		text-align: center;
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
 	}
+
 
 		#header h1 {
 			font-size: 4.35em;
@@ -995,6 +995,11 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+		@media (max-width: 1200px) {
+			#header nav {
+				padding: 0 0em;
+			} 
+		}
 
 
 
@@ -1052,3 +1057,42 @@ input, select, textarea {
         .switch-option.active {
             color: #1a1a1a;
         }
+		.grid-container-home {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 10px;
+		}
+		@media (max-width: 1200px) {
+			.grid-container-home {
+				display: grid;
+				grid-template-columns: 1fr;
+				gap: 10px;
+			}
+			.header-block{
+				text-align: center;
+				align-items: center;
+			}
+		}
+		
+		.grid-item {
+			padding: 0px; /* Padding interno */
+			text-align: center; /* Allineamento del testo */
+		}
+		
+		
+		@media (min-width: 1200px) {
+			.container-img{
+				padding: 0px 20px 40px 0px;
+			}
+		}
+
+		.header-block{
+			text-align: left;
+		}
+
+		@media (max-width: 1200px) {
+			.header-block{
+				text-align: center;
+				align-items: center;
+			}
+		}
