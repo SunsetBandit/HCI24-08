@@ -998,7 +998,7 @@ input, select, textarea {
 		@media (max-width: 625px) {
 			#header nav {
 				padding: 0 0em;
-			} 
+			}
 		}
 
 
@@ -1073,13 +1073,13 @@ input, select, textarea {
 				align-items: center;
 			}
 		}
-		
+
 		.grid-item {
 			padding: 0px; /* Padding interno */
 			text-align: center; /* Allineamento del testo */
 		}
-		
-		
+
+
 		@media (min-width: 625px) {
 			.container-img{
 				padding: 0px 80px 150px 20px;
@@ -1109,3 +1109,16 @@ input, select, textarea {
         .content.active {
             display: contents;
         }
+
+
+
+
+				/* css aggiunto*/
+				.card{
+					background-color: white;
+					width: 65%;
+					height: 50px;
+					border-radius: 25px;
+					margin-top: 50px;
+					padding: 50px;
+				}
