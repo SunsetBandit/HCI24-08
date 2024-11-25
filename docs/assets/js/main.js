@@ -15,7 +15,7 @@ switchEl.addEventListener('click', (e) => {
 });
 
 function updateSwitch(position) {
-  sliderEl.style.transform = `translateX(${position * 100}%)`;
+  sliderEl.style.transform = `translateX(${position * 96}%)`;
 
   optionsEl.forEach((option, index) => {
     option.classList.toggle('active', index === position);

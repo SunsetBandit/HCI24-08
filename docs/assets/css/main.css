@@ -1031,7 +1031,7 @@ input, select, textarea {
         }
 
         .switch-slider.right {
-            transform: translateX(200%);
+            transform: translateX(191%);
 			padding-right: 5px;
 			width:97px;
         }

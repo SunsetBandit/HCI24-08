@@ -30,9 +30,9 @@
 
 
 .switch-slider.right {
-    transform: translateX(200%);
+    transform: translateX(191%);
     padding-right: 5px;
-    width:97px;
+    width:90px;
 }
 
 
@@ -123,4 +123,15 @@ body{
   border-radius: 35px;
 }
 
+
+@media (min-width: 1200px) {
+  .imagehome{
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1200px) {
+  .mapbg{
+    display: none;
+  }
+}
 /*fine css pagina home*/
