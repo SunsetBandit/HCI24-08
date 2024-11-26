@@ -15,7 +15,11 @@ switchEl.addEventListener('click', (e) => {
 });
 
 function updateSwitch(position) {
-  sliderEl.style.transform = `translateX(${position * 96}%)`;
+  if (window.matchMedia("(max-width: 1200px)").matches) {
+    sliderEl.style.transform = `translateX(${position * 98}%)`;
+  } else {
+    sliderEl.style.transform = `translateX(${position * 96}%)`;
+  }
 
   optionsEl.forEach((option, index) => {
     option.classList.toggle('active', index === position);
@@ -25,3 +29,5 @@ function updateSwitch(position) {
     content.classList.toggle('active', index === position);
   });
 }
+
+

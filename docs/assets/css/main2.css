@@ -135,3 +135,84 @@ body{
   }
 }
 /*fine css pagina home*/
+
+/*css switcher cellulare*/
+@media (max-width: 1100px) {
+  .switch-container {
+    background: rgb(58 58 58);
+    border-radius: 100px;
+    padding: 4px;
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin-left: calc(50% - 300px);
+    margin-top: 80px;
+    z-index: 10000;
+    cursor: pointer;
+  }
+
+  .switch-slider {
+    position: absolute;
+    background: white;
+    width:200px;
+    height: calc(100% - 8px);
+    border-radius: 100px;
+    transition: transform 0.3s ease;
+  }
+
+  .switch-slider.center {
+    transform: translateX(96%);
+  }
+
+  .switch-slider.right {
+    transform: translateX(196%);
+    padding-right: 5px;
+    width:90px;
+  }
+
+  .switch-options {
+    position: relative;
+    display: flex;
+    height: 100%;
+  }
+
+  .switch-option {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    z-index: 1000000000;
+    transition: color 0.3s ease;
+  }
+
+  .switch-option.active {
+    color: #1a1a1a;
+  }
+}
+
+/*pagina team pc*/
+.image-container {
+  position: relative; /* Rende il contenitore relativo per posizionare l'overlay */
+  width: 100%; /* Assicura che il contenitore prenda tutta la larghezza */
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: -2px; /* Posiziona la sfumatura in basso */
+  left: 0;
+  right: 0;
+  height: 150px; /* Altezza della sfumatura */
+  background: linear-gradient(to top, black, black 50%, transparent); /* Gradiente da nero a trasparente */
+  z-index: 1; /* Assicurati che la sfumatura sia sopra l'immagine */
+}
+@media (min-width: 1200px) {
+  .beatles{
+    margin-top: -280px;
+  }
+}
+
+
+
