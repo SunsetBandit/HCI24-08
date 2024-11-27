@@ -82,7 +82,7 @@ body{
   background-color: black;
   color: white;
   font-weight: normal;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 /* fine css generale*/
@@ -129,7 +129,7 @@ body{
     justify-content: space-between;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .mapbg{
     display: none;
   }
@@ -213,6 +213,3 @@ body{
     margin-top: -280px;
   }
 }
-
-
-
