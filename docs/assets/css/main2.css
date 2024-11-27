@@ -90,7 +90,7 @@ body{
 
 /* css pagina home*/
 
-#title{
+.title{
   font-size: 4.35em;
   font-weight: 700;
   letter-spacing: -0.035em;
