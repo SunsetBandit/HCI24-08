@@ -11,6 +11,7 @@
     margin-top: 80px;
     z-index: 10000;
     cursor: pointer;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.8);
 }
 
 
