@@ -214,3 +214,165 @@ body{
     margin-top: -280px;
   }
 }
+
+
+.gradient-bg {
+  position: absolute;
+  margin-top: 130px;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 190px;
+  z-index: 0; /* Dietro al contenuto */
+  background: radial-gradient(circle, rgba(135, 166, 250, 0.6) 0%, rgba(0, 162, 255, 0.3) 60%, rgba(0, 255, 157, 0) 100%);
+
+  filter: blur(50px); /* Per l'effetto sfocato */
+  pointer-events: none; /* Evita che il div interferisca con i clic */
+}
+.gradient-bg2 {
+  position: absolute;
+  margin-top: 130px;
+  left:30%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 190px;
+  z-index: 0; /* Dietro al contenuto */
+  background: radial-gradient(circle, rgba(135, 250, 171, 0.6) 0%, rgba(0, 255, 136, 0.3) 60%, rgba(0, 255, 157, 0) 100%);
+  filter: blur(50px); /* Per l'effetto sfocato */
+  pointer-events: none; /* Evita che il div interferisca con i clic */
+}
+.gradient-bg3 {
+  position: absolute;
+  margin-top: 100px;
+  left:50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 270px;
+  z-index: 0; /* Dietro al contenuto */
+  background: radial-gradient(circle, rgba(135, 250, 171, 0.4) 0%, rgba(0, 255, 136, 0.2) 60%, rgba(0, 255, 157, 0) 100%);
+  filter: blur(50px); /* Per l'effetto sfocato */
+  pointer-events: none; /* Evita che il div interferisca con i clic */
+}
+.gradient-bg4 {
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 60%;
+  z-index: 0; /* Dietro al contenuto */
+  background: radial-gradient(circle, rgba(135, 166, 250, 0.4) 0%, rgba(0, 162, 255, 0.2) 60%, rgba(0, 255, 157, 0) 100%);
+  filter: blur(50px); /* Per l'effetto sfocato */
+  pointer-events: none; /* Evita che il div interferisca con i clic */
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+.card-img-top {
+  border-top-left-radius: 25px; /* Raggio per il bordo superiore sinistro */
+  border-top-right-radius: 25px; /* Raggio per il bordo superiore destro */
+}
+
+
+
+
+
+
+.items {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.items .item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item.active {
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+
+.item.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%) scale(0.90);
+}
+
+.item.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%) scale(0.90);
+}
+
+.items .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 275px;
+  z-index: 100;
+}
+
+.button-container .button {
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+  float: left;
+  display: none;
+}
+
+.button-container .button:nth-child(2) {
+  float: right;
+}
+
+.buttondx{
+  color: white;
+  background-color: rgb(39, 125, 66);
+  width: 240px;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}

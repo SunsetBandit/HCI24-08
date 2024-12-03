@@ -1,137 +1,219 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>RePark</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/x-icon" href="assets/css/images/favicon.ico">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload" style="overflow: visible;">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>RePark</title>
+      <link rel="icon" type="image/x-icon" href="assets/css/images/favicon.ico">
 
-		<div class="switch-container" id="switch" style="position: fixed;">
-			<div class="switch-slider"></div>
-			<div class="switch-options">
-				<div class="switch-option active" data-option="work">Home</div>
-				<div class="switch-option" data-option="info">Team</div>
-				<div class="switch-option" data-option="contact">Consegne</div>
-			</div>
-		</div>
+      <!-- bootstrap css e js -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <!-- main css -->
+      <link rel="stylesheet" href="assets/css/main2.css" />
+
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/7d62d2f55f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="switch-container" id="switch" style="position: fixed;">
+  			<div class="switch-slider"></div>
+  			<div class="switch-options">
+  				<div class="switch-option active" data-option="work">Home</div>
+  				<div class="switch-option" data-option="info">Team</div>
+  				<div class="switch-option" data-option="contact">Consegne</div>
+  			</div>
+  		</div>
+
+        <div class="content active">
+          <img class="mapbg" src="assets/css/images/mappa.png" alt="Mappa" style="position: absolute; top: 0; left: 0; width: 100%; height: 730px; z-index: -1; filter: blur(8px);">
+
+          <div class="container-fluid" style="padding-top:220px; color: rgb(255, 255, 255);">
+
+              <div class="row">
+
+                <!-- immagine repark -->
+                <div class="col-lg px-5 text-center">
+                  <div class="row imagehome" >
+                    <div class="col-3 col-lg-2"></div>
+                    <img  class="col-7 col-lg-9 image" src="assets/css/images/ayo.png" alt="RePark App" />
+                  </div>
+                </div>
+
+                <!-- titolo e bottoni -->
+                <div class="col-lg my-5 mt-lg-0 px-5 px-lg-0 pt-3">
+                  <div class="row">
+                    <div class="col-2 col-lg-0"></div>
+                    <div class="col-8 col-lg-12">
+                      <h1 class="title">RePark</h1>
+                      <h3 class="mt-3">Reimagine your park experience</h3>
+                      <button type="button" class="github btn btn-xl btn-outline-light btn-circle mt-3 "><i class="fa-brands fa-github"></i></button>
+                      <button type="button" class="figma1 btn btn-xl btn-outline-light btn-circle mt-3 mx-2"><i class="fa-brands fa-github"></i></button>
+                      <button type="button" class="figma2 btn btn-xl btn-outline-light btn-circle mt-3 "><i class="fa-brands fa-figma"></i></button>
+                    </div>
+                    <div class="col-2 col-lg-0"></div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- descrizione progetto -->
+              <div class="row  " style="margin-left:calc(50% - 600px); width:1200px; margin-top:300px; margin-bottom: 100px;" >
+                <div class="col px-5" >
+                  
+                  <div class="row justify-content-center" style="margin-bottom:200px; position: relative; z-index: 1;">
+                    <div class="col-9">
+                      <p style="font-size: 20px; margin-bottom: 50px; z-index: 1;">"L'obiettivo di repark è quello di migliorare l'esperienza degli utenti dei parchi pubblici. Con le nostre attività di needfinding abbiamo capito i bisogni degli utenti e siamo arrivati alla conclusione che la nostra soluzione debba contenere due task principali: segnalare al comune guasti e suggerimenti di migliorie e la ricerca di parchi ed eventi."</p>
+                    </div>
+                    <div class="gradient-bg3"></div>
+                    <img class="col-8" src="assets/css/images/start.png" alt="Immagine di sfondo" style=" border-radius: 40px; z-index: 1;">
+                  </div>
+                  <div class="row justify-content-center"></div>
+                    
+                  </div>
+                  <div class="row" style="margin-bottom:200px; position: relative; z-index: 1;">
+                    <div class="col-7 mt-5" style="padding-left:100px;">
+                      <h2>Ricerca di informazioni</h2>
+                      <p>
+                        Abbiamo notato come attualmente sia difficile per un utente ricercare informazioni accurate ed in tempo reale sui parchi e sullo stato delle infrastrutture al loro interno. Per questo pensiamo che la funzione centrale della nostra applicazione sarà quella di fornire filtri precisi per la ricerca ed aggiornare regolarmente gli stati di servizio delle infrastrutture. Inoltre abbiamo previsto anche sezioni per pubblicizzare gli eventi che hanno luogo nei parchi, che spesso faticano a raggiungere gli utenti.
+                      </p>
+                    </div>
+                    <img class="col-4 col-lg-4 image" src="assets/css/images/Info_sm.png" alt="" style="z-index: 1;">
+                    <!-- Gradient Background -->
+                    <div class="gradient-bg"></div>
+                  </div>
+                  
+                  <div class="row justify-content-end mt-5" style="margin-bottom:100px; position: relative; z-index: 1;">
+                    <img class="col-4 col-lg-3 image" src="assets/css/images/report.png" alt=""style="z-index: 1;">
+                    <div class="col-7 mt-4" style="padding-right:100px;">
+                      <h2>Segnalazione al comune</h2>
+                      <p>
+                        Inoltre abbiamo notato come attualmente non esista un modo semplice ed immediato per segnalare guasti trovati nei parchi pubblici, e come sia una priorità dell'Assessorato cercare la comunicazione e la collaborazione con i cittadini. Per questo prevediamo la possibilità di inviare segnalazioni di guasti con pochi e semplici passaggi e quella di inviare suggerimenti di migliorie, permettendo inoltre agli utenti di visualizzare e votare le proposte altrui. Un ulteriore punto di forza della nostra soluzione sarà la possibilità per gli utenti di rimanere aggiornati sullo stato di presa in carico e risoluzione delle segnalazioni di guasto.
+                      </p>
+                    </div>
+                    <div class="gradient-bg2"></div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- footer -->
+              <div class="row text-center">
+                <div class="col">
+                  <p class="">&copy; Discepoli di Norman</p>
+                </div>
+              </div>
+
+          </div>
 
 
-		<div class="content active" id="wrapper">
-			<div id="bg"></div>
+        </div>
 
-			<div id="overlay"></div>
-			<div id="main">
+  		<div id="team-content" class="content">
+  			<div class="image-container">
+  				<img src="assets/css/images/beatles.JPG" alt="Beatles"  style="position: absolute; top: 150px; left: 0; width: 100%; height: 650px; z-index: -1; filter: blur(8px);" class="beatles">
+  				<div class="gradient-overlay"></div>
+  			</div>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="grid-container-home">
-							<div class="container-img" style="align-items: end;">
-								<img  style="max-width: 100%; " src="assets/css/images/sito.png" alt="RePark App" />
-							</div>
-							<div  class="header-block">
-								<h1>RePark</h1>
-								<p style="font-weight: 900;" >Reimagine your park experience</p>
-								<nav>
-									<ul>
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</header>
+        <div class="container-fluid" style="padding-top:220px;">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Discepoli di Norman</span>
-					</footer>
+          <div class="row text-center justify-content-center">
+            <div class="col">
+              <h1 class="title">I Discepoli di Norman</h1>
+            </div>
+          </div>
+          <div class="row text-center justify-content-center mt-3">
+            <div class="col-8">
+              <h4>“Engineers and businesspeople are trained to solve problems. Designers are trained to discover the real problems. A brilliant solution to the wrong problem can be worse than no solution at all: solve the correct problem.” - Donald A. Norman</p>
+            </div>
+          </div>
 
-			</div>
+          <div class="row justify-content-center" style="padding-top:270px; margin-bottom: 150px;">
+            <div class="col-8" style="position: relative; z-index: 1;">
+              <div class="row row-cols-2 row-cols-lg-2" style="z-index: 1;">
+                <div class="col mb-5" style="z-index: 1;">
+                  <div class="card p-1" style="width: 100%; background-color: rgb(28, 28, 28); border-radius: 25px;">
+                    <img class="card-img-top" src="assets/css/images/beatles.JPG" alt="Card image cap">
+                    <div class="card-body">
+                      <p style="color: white;"><b>"The Normans"</b></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-5" style="z-index: 1;">
+                  <div class="card p-1" style="width: 100%; background-color: rgb(28, 28, 28); border-radius: 25px;">
+                    <img class="card-img-top" src="assets/css/images/group_photo2.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p style="color: white;"><b>Norman's coffee maker</b></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-5" style="z-index: 1;">
+                  <div class="card p-1" style="width: 100%; background-color: rgb(28, 28, 28); border-radius: 25px;">
+                    <img class="card-img-top" src="assets/css/images/group_photo1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p style="color: white;"><b>Webex class</b></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-5" style="z-index: 1;">
+                  <div class="card p-1" style="width: 100%; background-color: rgb(28, 28, 28); border-radius: 25px;">
+                    <img class="card-img-top" src="assets/css/images/group_photo3.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p style="color: white;"><b>Ginew squad</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gradient-bg4"></div>
+            </div>
+          </div>
+          <!-- footer -->
+          <div class="row text-center">
+            <div class="col">
+              <p class="">&copy; Discepoli di Norman</p>
+            </div>
+          </div>
+        </div>
 
-		</div>
-		<div id="team-content" class="content">
-			<div id="wrapper" style="position: static !important">
-				<div id="bg"></div>
-
-				<div id="overlay"></div>
-				<div id="main" style="position: static !important">
-
-					<!-- Header -->
-						<header id="header" style="margin-top: 200px">
-							<h1>I Discepoli di Norman</h1>
-							<!-- <p style="font-weight: 900;" >I Discepoli di Norman</p>-->
-							<!--<nav>
-								<ul>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</nav>-->
-						</header>
-						<div id="content" style="height: 900px; display: inline-block">
-							<center>
-								<div class="card">
-									<img src="assets/css/images/beatles.jpg" style="width: 100%; height: auto;">
-								</div>
-							</center>
-						</div>
 
 
-					<!-- Footer -->
-						<footer id="footer" >
-							<span class="copyright">&copy; Discepoli di Norman</span>
-						</footer>
+  		</div>
 
-				</div>
+  		<div id="consegne-content" class="content">
+        <div class="row text-center">
 
-			</div>
-		</div>
+          <div class="items" style="margin-bottom: 300px; margin-top: 450px;">
+            <div class="item active">
+              <iframe src="assets/pdf/C1 - Needfinding.pdf" width="100%" height="600" style="border: none;"></iframe>
+            </div>
+            <div class=" item next">
+              <iframe src="assets/pdf/C2 - Raffinamento e Focus.pdf" width="100%" height="600" style="border: none;"></iframe>
+            </div>
+            <div class="item">
+              <iframe src="assets/pdf/C3 - Prototipi LF.pdf" width="100%" height="600" style="border: none;"></iframe>
+            </div>
+            <div class="item prev">
+              <iframe src="assets/pdf/C3 - Prototipi LF.pdf" width="100%" height="600" style="border: none;"></iframe>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="row text-center" style="margin-bottom: 150px;">
+          <div class="button-container">
+            <button class="buttondx">Prossima consegna</button>
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="row text-center">
+          <div class="col">
+            <p class="">&copy; Discepoli di Norman</p>
+          </div>
+        </div>
+  		</div>
+      
 
-		<div id="consegne-content" class="content">
-			<h2 style="color: black !important;">consegne Content</h2>
-			<p style="color: black !important;">Questo è il contenuto della sezione Contact. Qui puoi trovare i nostri contatti e un modulo per raggiungerci.</p>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			const switchEl = document.getElementById('switch');
-			const sliderEl = switchEl.querySelector('.switch-slider');
-			const optionsEl = switchEl.querySelectorAll('.switch-option');
-			const contentEls = document.querySelectorAll('.content');
-
-			switchEl.addEventListener('click', (e) => {
-				const clickedOption = e.target.closest('.switch-option');
-				if (!clickedOption) return;
-
-				const newPosition = Array.from(optionsEl).indexOf(clickedOption);
-				updateSwitch(newPosition);
-				contentEls.forEach((content, index) => {
-					content.classList.toggle('active', index === newPosition);
-				});
-			});
-
-			function updateSwitch(position) {
-				sliderEl.style.transform = `translateX(${position * 100}%)`;
-
-				optionsEl.forEach((option, index) => {
-					option.classList.toggle('active', index === position);
-				});
-
-				contentEls.forEach((content, index) => {
-					content.classList.toggle('active', index === position);
-				});
-			}
-		</script>
-	</body>
+      <!-- main js -->
+      <script src="assets/js/main.js"></script>
+    </body>
 </html>
