@@ -37,9 +37,13 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [Figma con personas, scenari e task analysis](https://www.figma.com/design/qKmcI3s3g8ke1sle3tozmU/Personas-e-scenari?node-id=0-1&t=DM8kZ3xflFBsn11R-1)
 * [Figma con brainstorming](https://www.figma.com/board/fdDNjSkG5vJwfZuHgdZE3B/Brainstorming-Bisogni-Soluzioni-e-Nome?node-id=0-1&t=aDMFWfRXnQYS14IT-1)
 
-<h3>03 - Storyboard & LFPrototypes </h3>
+<h3>03 - Storyboard & Low-Fidelity Prototypes </h3>
 
 * [Homework 3: Storyboard & LFPrototypes](https://docs.google.com/document/d/1Ti7Me344w-s-syKwv9NNagVoDLAa9HpS/edit)
 * [Figma con personas, scenari e task analysis](https://www.figma.com/design/qKmcI3s3g8ke1sle3tozmU/Personas-e-scenari?node-id=0-1&t=DM8kZ3xflFBsn11R-1)
 * [Web Prototype](https://www.figma.com/design/OghGLXV4DjVX6F6Sr3nEMR/Prototipi-MF?node-id=0-1&node-type=canvas&t=3j31SPdpkzeqi6Ix-0)
 * [App Prototype](https://www.figma.com/proto/OghGLXV4DjVX6F6Sr3nEMR?node-id=2-2&t=3zS1HiLcoD7Z6jDK-6)
+
+<h3>04 - Medium-Fidelity Prototype </h3>
+* [Homework 4: Prototipi Medium-Fidelity](https://docs.google.com/document/d/1FHB8MsNXWwVJ639Do0mnqQArOcTX3K7A/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
+* [Groups and other info](https://docs.google.com/spreadsheets/d/1bUEev_bgPnlF7k2So-3WVfrXRvhsT6oa6bVnm_aCfDU/edit?usp=sharing)
