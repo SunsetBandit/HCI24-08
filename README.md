@@ -45,5 +45,6 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [App Prototype](https://www.figma.com/proto/OghGLXV4DjVX6F6Sr3nEMR?node-id=2-2&t=3zS1HiLcoD7Z6jDK-6)
 
 <h3>04 - Medium-Fidelity Prototype </h3>
+
 * [Homework 4: Prototipi Medium-Fidelity](https://docs.google.com/document/d/1FHB8MsNXWwVJ639Do0mnqQArOcTX3K7A/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 * [Groups and other info](https://docs.google.com/spreadsheets/d/1bUEev_bgPnlF7k2So-3WVfrXRvhsT6oa6bVnm_aCfDU/edit?usp=sharing)
