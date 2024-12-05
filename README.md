@@ -48,3 +48,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 * [Homework 4: Prototipi Medium-Fidelity](https://docs.google.com/document/d/1FHB8MsNXWwVJ639Do0mnqQArOcTX3K7A/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 * [Groups and other info](https://docs.google.com/spreadsheets/d/1bUEev_bgPnlF7k2So-3WVfrXRvhsT6oa6bVnm_aCfDU/edit?usp=sharing)
+* [Documento scelte di design](https://www.canva.com/design/DAGYVbW26co/XEaHgH2j6Y_NQ1d31pBa5g/edit?utm_content=DAGYVbW26co&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Documento per valutatori](https://www.canva.com/design/DAGYcGPT2jY/nq94lHKjZaYm8VIY0gpd7Q/edit?utm_content=DAGYcGPT2jY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
