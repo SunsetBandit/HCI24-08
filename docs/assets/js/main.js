@@ -87,7 +87,7 @@ figma1.forEach(item => {
 
 figma2.forEach(item => {
   item.addEventListener("click", () => {
-    window.open("https://www.figma.com/proto/OghGLXV4DjVX6F6Sr3nEMR/Prototipi-Low%2FMid-Fidelity?node-id=973-4804&t=QJWHWKJavsn8p5hF-1", "_blank");
+    window.open("https://www.figma.com/proto/ISUiWE7jed7PotHeMyiw96/I-Discepoli-di-Norman---RePark?node-id=2-3499", "_blank");
   });
 });
 
