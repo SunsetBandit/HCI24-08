@@ -48,3 +48,9 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 
 * [Homework 4: Prototipi Medium-Fidelity](https://docs.google.com/document/d/1FHB8MsNXWwVJ639Do0mnqQArOcTX3K7A/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true)
 * [Groups and other info](https://docs.google.com/spreadsheets/d/1bUEev_bgPnlF7k2So-3WVfrXRvhsT6oa6bVnm_aCfDU/edit?usp=sharing)
+
+<h3>06 - High-Fidelity Prototype </h3>
+
+* [What To-Do]([https://docs.google.com/document/d/1FHB8MsNXWwVJ639Do0mnqQArOcTX3K7A/edit?usp=sharing&ouid=101192016347473430286&rtpof=true&sd=true](https://docs.google.com/document/d/1dspHvUu327ZOfcPguMa76hPM_d_RGctlS_pfYVgrDpI/edit?tab=t.0))
+* [Script Usability Testing](https://docs.google.com/document/d/1n4JlXYORjRju4Qv6WxlRPzAexD9BZC3aA5a6LBTU9Fc/edit?tab=t.0)
+* [Report Cambiamenti](https://docs.google.com/document/d/1MEJIh0p9lQiIZ0_E2uFcs2pe6490ec7ZCMaXXd5RtbE/edit?tab=t.0)
