@@ -54,3 +54,5 @@ Project for course Fondamenti di Human-Computer Interaction A.A. 2024/2025 Grupp
 * [What To-Do](https://docs.google.com/document/d/1dspHvUu327ZOfcPguMa76hPM_d_RGctlS_pfYVgrDpI/edit?tab=t.0)
 * [Script Usability Testing](https://docs.google.com/document/d/1n4JlXYORjRju4Qv6WxlRPzAexD9BZC3aA5a6LBTU9Fc/edit?tab=t.0)
 * [Report Cambiamenti](https://docs.google.com/document/d/1MEJIh0p9lQiIZ0_E2uFcs2pe6490ec7ZCMaXXd5RtbE/edit?tab=t.0)
+* [Form SEQ & SUS](https://docs.google.com/forms/d/e/1FAIpQLSc0e_tC4dYQ6CaxyH5wRQLv4ZSQgX66MXnSfvn5k5RR8wcrYw/viewform?usp=dialog)
+* [SEQ & SUS Sheet](https://docs.google.com/spreadsheets/d/1ApJEorNoBAdVI7-vksC82MuG7RfvaCPtm7JhYqDlFkY/edit?gid=1583949975#gid=1583949975)
