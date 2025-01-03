@@ -234,7 +234,7 @@ body{
   margin-top: 130px;
   left:30%;
   transform: translateX(-50%);
-  width: 500px;
+  width: 400px;
   height: 190px;
   z-index: 0; /* Dietro al contenuto */
   background: radial-gradient(circle, rgba(135, 250, 171, 0.6) 0%, rgba(0, 255, 136, 0.3) 60%, rgba(0, 255, 157, 0) 100%);

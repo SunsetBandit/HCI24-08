@@ -12,6 +12,8 @@ switchEl.addEventListener('click', (e) => {
   contentEls.forEach((content, index) => {
     content.classList.toggle('active', index === newPosition);
   });
+
+  window.scrollTo(0, 0);
 });
 
 function updateSwitch(position) {
